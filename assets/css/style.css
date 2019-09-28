@@ -1,0 +1,151 @@
+body {
+    margin: 0 auto;
+    padding: 0;
+    background-image: url(../images/so-white.png);
+    background-size: cover;
+    background-position: center; 
+}
+
+
+.menu {
+    position: relative;
+    box-sizing: border-box;
+    background: #ffffff;
+    border-bottom: solid #cccccc;
+    margin-bottom: 40px;
+    padding: 40px;
+    height: 5px;
+    color: #777777;
+    font-family: 'Georgia', Times, Times New Roman, serif;
+    text-align: center;
+}
+
+#about-relative,
+#contact-relative,
+#portfolio-relative {
+    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+}
+
+a:hover {
+    background: #cccccc;
+}
+
+a:visited {
+    color: currentColor;
+}
+
+.links:default {
+    color: black;
+}
+
+#mynameRelative {
+    color: #ffffff;
+    background: #4aaaa5;
+    position: absolute;
+    inline-size: auto;
+    top: 0px;
+    left: 90px;
+    padding: 20px;
+    height: 40px;
+    font-size: 36px;    
+}
+
+#about-relative {
+    position: absolute;
+    /* background: #4aaaa5; */
+    right: 180px;
+    padding: 5px;
+    /* border-right: 1px solid #cccccc; */
+    height: 10px;
+
+}
+
+#contact-relative {
+    position: absolute;
+    right: 39px;
+    padding: 5px;
+    height: 10px;
+}
+
+#portfolio-relative {
+    position: absolute;
+    padding: 5px;
+    right: 105px;
+    /* border-right: 1px solid #cccccc; */
+    height: 10px;
+}
+
+@media(max-width: 980px) {
+    body {
+        width: 100%;
+    }
+
+    #about-relative {
+        right: 32%;
+    }
+
+    #contact-relative {
+        right: 16.5%;
+    }
+
+    #portfolio-relative {
+        right: 24%;
+    }
+
+    
+    
+
+@media(max-width: 768px) {
+    body {
+        width: 100%;
+    }
+
+    #about-relative {
+        right: 32%;
+    }
+
+    #contact-relative {
+        right: 16.5%;
+    }
+
+    #portfolio-relative {
+        right: 24%;
+    }
+
+
+
+
+
+
+@media(max-width: 640px) {
+
+    body {
+        width: 100%;
+    }
+
+    #about-relative {
+        right: 32%;
+    }
+
+    #contact-relative {
+        right: 16.5%;
+    }
+
+    #portfolio-relative {
+        right: 24%;
+    }
+
+    #mynameRelative {
+        display: block;
+        align-content: none;
+        padding-left: 20%;
+        inline-size: none;
+        margin-right: 0;
+        position: none;
+
+    }
+
+
+}
+
+
