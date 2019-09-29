@@ -234,7 +234,15 @@ div.gallery img {
     }
 
     #bio-image {
-        width: 100%;
+        width: 80%;
+        height: auto;
+        display: block;
+        align-content: center;
+        column-span: all;
+    }
+
+    p {
+        column-span: all;
         display: block;
     }
 
@@ -247,14 +255,37 @@ div.gallery img {
     }
 
     .content {
-        width: 60%;
+        width: 95%;
+        text-align: center;
+        
+    }
+
+    .content h2 {
+        width: 90%;
     }
 
     .contact-wrapper {
-        width: 80%;
+        width: 100%;
     }
 
     .portfolio-wrapper {
-        width: 80%;
+        width: 90%;
+        text-align: center;
     }
+
+    div.gallery {
+        width: 400px;
+        height: 300px;
+    }
+
+    .my-form input[type="text"] {
+        padding: 10 0px;
+        width: 100%;
+        }
+    
+        #form-message {
+            height: 175px;
+            width: 100%;
+    
+        }
 }

@@ -128,15 +128,19 @@ a:visited {
     }
 
     #about-relative {
-        right: 32%;
+        right: 62%;
+        top: 120%;
+        text-align: center;
     }
 
     #contact-relative {
-        right: 16.5%;
+        right: 37.5%;
+        top: 120%;
     }
 
     #portfolio-relative {
-        right: 24%;
+        right: 49.0%;
+        top: 120%;
     }
 
     #mynameRelative {
