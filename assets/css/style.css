@@ -100,16 +100,20 @@ a:visited {
         width: 100%;
     }
 
+    #mynameRelative {
+        left: 30px;
+    }
+
     #about-relative {
-        right: 32%;
+        right: 20%;
     }
 
     #contact-relative {
-        right: 16.5%;
+        right: 11.4%;
     }
 
     #portfolio-relative {
-        right: 24%;
+        right: 2%;
     }
 
 
